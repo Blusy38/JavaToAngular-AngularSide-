@@ -6,7 +6,6 @@ import { Observable } from 'rxjs';
 //The UserService class encapsulates in a reusable component all the functionality required to consume the REST controller API that we previously implemented in Spring Boot
 @Injectable()
 export class UserService {
- 
   
   private usersUrl: string;
  
